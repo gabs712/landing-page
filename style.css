@@ -71,6 +71,7 @@ header, footer {
 
 .hero h1 {
   font-size: 48px;
+  line-height: 1;
   color: #F9FAF8;
   font-weight: bold;
   margin-bottom: 10px;
@@ -95,6 +96,7 @@ header, footer {
 .information {
   padding: 77px 0; 
 }
+
 .information h2 {
   color: #1F2937;
   font-size: 36px;
@@ -122,6 +124,7 @@ header, footer {
   object-fit: cover;
   margin-bottom: 12px;
 }
+
 
 .quote {
   background-color: #E5E7EB;
