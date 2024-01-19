@@ -29,6 +29,8 @@ header, footer {
   justify-content: space-between;
   align-items: center;
   padding-block: 17px;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .logo {
@@ -54,13 +56,27 @@ header, footer {
   gap: 35px;
   display: flex;
   align-items: center;
-  flex-wrap: wrap-reverse;
+}
+
+@media (max-width: 837px) {
+  .hero .mg-align {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+  
+  .hero .hero-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+  }
+
+
 }
 
 .hero-img {
   background-color: #E5E7EB;
-  max-width: 660px;
-  max-height: 350px;
+  width: 660px;
+  height: 350px;
   object-fit: cover;
 }
 
@@ -126,7 +142,7 @@ header, footer {
   background-color: #E5E7EB;
   display: flex;
   justify-content: center;
-  padding: 100px 10px;
+  padding: 100px 30px;
 
 }
 
@@ -147,14 +163,16 @@ header, footer {
   font-weight: bold;
 }
 
+
 .call-to-action {
   display: flex;
-  padding: 70px 0;
+  padding: 70px 20px;
   justify-content: center;
 }
 
 .call-to-action .card {
   display: flex;
+  flex-wrap: wrap;
   width: 800px;
   box-sizing: content-box;
   background-color: #3882F6;
@@ -163,7 +181,7 @@ header, footer {
   padding: 28px 70px;
   color: #F9FAF8;
   border-radius: 7px;
-  gap: 10px;
+  gap: 30px;
 }
 
 .call-header {
@@ -177,4 +195,9 @@ header, footer {
   padding: 5px 20px;
   border-radius: 6px;
   font-weight: bold;
+}
+
+
+footer {
+
 }
