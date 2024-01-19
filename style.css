@@ -58,21 +58,6 @@ header, footer {
   align-items: center;
 }
 
-@media (max-width: 837px) {
-  .hero .mg-align {
-    flex-wrap: wrap-reverse;
-    justify-content: center;
-  }
-  
-  .hero .hero-img {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-  }
-
-
-}
-
 .hero-img {
   background-color: #E5E7EB;
   width: 660px;
@@ -195,9 +180,27 @@ header, footer {
   padding: 5px 20px;
   border-radius: 6px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 
 footer {
+  display: flex;
+  color: #E5E7EB;
+  justify-content: center;
+  padding: 25px 5px;
+}
 
+
+@media (max-width: 837px) {
+  .hero .mg-align {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+  
+  .hero .hero-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+  }
 }
