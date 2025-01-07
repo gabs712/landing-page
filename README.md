@@ -1,3 +1,5 @@
+Live preview: https://gabs712.github.io/landing-page/
+
 # A landing page applying flexbox concepts.
 
 ### Credits for the images:
